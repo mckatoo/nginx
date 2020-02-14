@@ -1,1 +1,2 @@
 
+# NGINX SWARM MODE
