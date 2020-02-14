@@ -14,7 +14,6 @@ services:
       - global
     volumes:
       - ./domain.template:/etc/nginx/conf.d/mysite.template
-      - /var/run/docker.sock:/var/run/docker.sock
     deploy:
       restart_policy:
         condition: on-failure
